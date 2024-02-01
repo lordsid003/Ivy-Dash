@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+}
+canvas {
+    background: linear-gradient(to bottom, aqua);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 10px blue;
+}
+button {
+    border-radius: 10px;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+section #mountains {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+}
+section #lava {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 20%;
+    object-fit: cover;
+}
+#start-btn {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 8%;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    padding: 0.8em 1.2em;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+    font-size: 100%;
+    overflow: hidden;
+}
+#home {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 5%;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    padding: 0.8em 1.2em;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+    font-size: 70%;
+    text-align: center;
+}
+#exit-btn {
+    top: 76%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    height: 4%;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+    font-size: 80%;
+}
+#return {
+    position: fixed;
+    top: 65%;
+    left: 46%;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 4px black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#return:hover {
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#exit-btn:hover {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+}
+#home:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+#start-btn:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
