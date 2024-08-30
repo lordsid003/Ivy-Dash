@@ -141,7 +141,7 @@ function animate() {
     ctx.fillText(" X " + starCount, 60, 40);
     gameFrame++;
 
-    if(score > 1000) {
+    if(score > 500) {
         console.log("Flag: flag{1vy_d3sh_expl0it}");
     }
     
