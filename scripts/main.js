@@ -141,6 +141,10 @@ function animate() {
     ctx.fillText(" X " + starCount, 60, 40);
     gameFrame++;
 
+    if(score > 1000) {
+        console.log("Flag: flag{1vy_d3sh_expl0it}");
+    }
+    
     ctx.font = "30px Arial";
     ctx.fillStyle = "blue";
     ctx.strokeText("Score: " + score, 600, 50);
